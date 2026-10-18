@@ -1,0 +1,295 @@
+{"database":"comp3123_assignment1","level":"info","message":"MongoDB connected","timestamp":"2026-10-18T11:58:08.213Z"}
+{"level":"info","message":"Server started","port":"3000","timestamp":"2026-10-18T11:58:08.219Z"}
+{"database":"comp3123_assignment1","level":"info","message":"MongoDB connected","timestamp":"2026-10-18T11:58:15.637Z"}
+{"level":"info","message":"Server started","port":"3000","timestamp":"2026-10-18T11:58:15.641Z"}
+{"level":"info","message":"request","method":"GET","ms":17,"path":"/health","status":200,"timestamp":"2026-10-18T16:32:57.846Z"}
+{"level":"info","message":"request","method":"GET","ms":12,"path":"/api/v1/unknown","status":404,"timestamp":"2026-10-18T16:33:48.931Z"}
+{"level":"warn","message":"Malformed JSON body","path":"/api/v1/user/login","timestamp":"2026-10-18T16:34:12.359Z"}
+{"level":"info","message":"User registered","timestamp":"2026-10-18T16:35:01.344Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"POST","ms":140,"path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18T16:35:01.344Z"}
+{"level":"info","message":"User registered","timestamp":"2026-10-18T16:35:23.578Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"POST","ms":109,"path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18T16:35:23.579Z"}
+{"level":"warn","message":"username already exists","path":"/api/v1/user/signup","timestamp":"2026-10-18T16:35:51.497Z"}
+{"level":"info","message":"request","method":"POST","ms":108,"path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-18T16:35:51.497Z"}
+{"level":"warn","message":"email already exists","path":"/api/v1/user/signup","timestamp":"2026-10-18T16:36:10.348Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-18T16:36:10.348Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/user/signup","timestamp":"2026-10-18T16:36:25.335Z"}
+{"level":"info","message":"request","method":"POST","ms":2,"path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-18T16:36:25.336Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/user/signup","timestamp":"2026-10-18T16:36:46.093Z"}
+{"level":"info","message":"request","method":"POST","ms":2,"path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-18T16:36:46.094Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/user/signup","timestamp":"2026-10-18T16:37:11.385Z"}
+{"level":"info","message":"request","method":"POST","ms":3,"path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-18T16:37:11.387Z"}
+{"level":"info","message":"Login success","timestamp":"2026-10-18T16:37:57.711Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"POST","ms":128,"path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18T16:37:57.721Z"}
+{"level":"info","message":"Login success","timestamp":"2026-10-18T16:38:23.902Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"POST","ms":103,"path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18T16:38:23.903Z"}
+{"level":"info","message":"Login success","timestamp":"2026-10-18T16:38:51.084Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18T16:38:51.085Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:39:22.416Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:39:22.417Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/user/login","timestamp":"2026-10-18T16:39:45.070Z"}
+{"level":"info","message":"request","method":"POST","ms":0,"path":"/api/v1/user/login","status":400,"timestamp":"2026-10-18T16:39:45.070Z"}
+{"level":"info","message":"Employee created","timestamp":"2026-10-18T16:40:29.334Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"POST","ms":17,"path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18T16:40:29.337Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:40:48.239Z"}
+{"level":"info","message":"request","method":"POST","ms":5,"path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-18T16:40:48.240Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:41:09.336Z"}
+{"level":"info","message":"request","method":"POST","ms":6,"path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-18T16:41:09.336Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:41:25.921Z"}
+{"level":"info","message":"request","method":"POST","ms":5,"path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-18T16:41:25.921Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:41:39.089Z"}
+{"level":"info","message":"request","method":"POST","ms":9,"path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-18T16:41:39.089Z"}
+{"level":"warn","message":"Auth failed: missing token","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:41:58.431Z"}
+{"level":"info","message":"request","method":"POST","ms":3,"path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-18T16:41:58.434Z"}
+{"level":"warn","message":"Auth failed: invalid token","path":"/api/v1/emp/employees","timestamp":"2026-10-18T16:42:11.580Z"}
+{"level":"info","message":"request","method":"POST","ms":10,"path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-18T16:42:11.581Z"}
+{"level":"info","message":"request","method":"GET","ms":124,"path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18T16:42:24.504Z"}
+{"level":"info","message":"request","method":"GET","ms":13,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":200,"timestamp":"2026-10-18T16:42:43.506Z"}
+{"level":"info","message":"Employee updated","timestamp":"2026-10-18T16:43:02.485Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"PUT","ms":34,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":200,"timestamp":"2026-10-18T16:43:02.486Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees/123","timestamp":"2026-10-18T16:43:17.072Z"}
+{"level":"info","message":"request","method":"GET","ms":4,"path":"/api/v1/emp/employees/123","status":400,"timestamp":"2026-10-18T16:43:17.072Z"}
+{"level":"info","message":"request","method":"GET","ms":5,"path":"/api/v1/emp/employees/64b7f0c2a1b2c3d4e5f60789","status":404,"timestamp":"2026-10-18T16:43:41.250Z"}
+{"level":"info","message":"Employee created","timestamp":"2026-10-18T16:44:20.614Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"POST","ms":16,"path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18T16:44:20.615Z"}
+{"level":"info","message":"request","method":"GET","ms":4,"path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18T16:44:32.202Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:45:12.466Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"GET","ms":6,"path":"/api/v1/emp/employees/6ad4f764642aa2d507145310","status":403,"timestamp":"2026-10-18T16:45:12.466Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:45:41.076Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"PUT","ms":48,"path":"/api/v1/emp/employees/6ad4f764642aa2d507145310","status":403,"timestamp":"2026-10-18T16:45:41.081Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:46:18.597Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"DELETE","ms":5,"path":"/api/v1/emp/employees?eid=6ad4f764642aa2d507145310","status":403,"timestamp":"2026-10-18T16:46:18.598Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:46:45.432Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"GET","ms":4,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":403,"timestamp":"2026-10-18T16:46:45.433Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:47:08.122Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"PUT","ms":15,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":403,"timestamp":"2026-10-18T16:47:08.122Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:47:38.754Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"PUT","ms":4,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":403,"timestamp":"2026-10-18T16:47:38.754Z"}
+{"level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-18T16:48:12.796Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"DELETE","ms":6,"path":"/api/v1/emp/employees?eid=6ad4f67d642aa2d50714530f","status":403,"timestamp":"2026-10-18T16:48:12.797Z"}
+{"level":"warn","message":"Validation failed","path":"/api/v1/emp/employees?eid=xyz","timestamp":"2026-10-18T16:48:45.478Z"}
+{"level":"info","message":"request","method":"DELETE","ms":6,"path":"/api/v1/emp/employees?eid=xyz","status":400,"timestamp":"2026-10-18T16:48:45.479Z"}
+{"level":"info","message":"Employee deleted","timestamp":"2026-10-18T16:48:58.584Z","userId":"6ad4f535642aa2d50714530b"}
+{"level":"info","message":"request","method":"DELETE","ms":10,"path":"/api/v1/emp/employees?eid=6ad4f67d642aa2d50714530f","status":204,"timestamp":"2026-10-18T16:48:58.584Z"}
+{"level":"info","message":"request","method":"GET","ms":6,"path":"/api/v1/emp/employees/6ad4f67d642aa2d50714530f","status":404,"timestamp":"2026-10-18T16:49:36.465Z"}
+{"level":"info","message":"Employee deleted","timestamp":"2026-10-18T16:49:49.195Z","userId":"6ad4f54b642aa2d50714530c"}
+{"level":"info","message":"request","method":"DELETE","ms":5,"path":"/api/v1/emp/employees?eid=6ad4f764642aa2d507145310","status":204,"timestamp":"2026-10-18T16:49:49.196Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:33.192Z"}
+{"level":"info","message":"request","method":"POST","ms":107,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:33.193Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:35.484Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:35.484Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:36.168Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:36.168Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:36.543Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:36.543Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:36.939Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:36.939Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:37.303Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:37.303Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:37.738Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:37.739Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:38.080Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:38.081Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:38.437Z"}
+{"level":"info","message":"request","method":"POST","ms":94,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:38.437Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:38.839Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:38.839Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:39.181Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:39.182Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:39.569Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:39.570Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:39.954Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:39.954Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:40.372Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:40.372Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:40.733Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:40.733Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:41.108Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:41.108Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:41.483Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:41.484Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:41.873Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:41.873Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:42.259Z"}
+{"level":"info","message":"request","method":"POST","ms":89,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:42.259Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:42.626Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:42.626Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:42.988Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:42.988Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:43.339Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:43.339Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:43.715Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:43.715Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:44.055Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:44.055Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:44.373Z"}
+{"level":"info","message":"request","method":"POST","ms":83,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:44.373Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:44.755Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:44.755Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:45.121Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:45.121Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:45.487Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:45.487Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:45.868Z"}
+{"level":"info","message":"request","method":"POST","ms":94,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:45.868Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:46.234Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:46.234Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:46.695Z"}
+{"level":"info","message":"request","method":"POST","ms":94,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:46.696Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:47.035Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:47.035Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:47.406Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:47.407Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:47.711Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:47.712Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:48.186Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:48.186Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:48.875Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:48.875Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:49.465Z"}
+{"level":"info","message":"request","method":"POST","ms":90,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:49.465Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:50.001Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:50.002Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:50.543Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:50.543Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:51.065Z"}
+{"level":"info","message":"request","method":"POST","ms":103,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:51.065Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:51.595Z"}
+{"level":"info","message":"request","method":"POST","ms":104,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:51.596Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:52.187Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:52.188Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:52.788Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:52.789Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:53.231Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:53.231Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:53.737Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:53.737Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:54.184Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:54.184Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:54.707Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:54.707Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:55.191Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:55.191Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:55.655Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:55.655Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:50:56.746Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:50:56.746Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:03.086Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:03.086Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:05.041Z"}
+{"level":"info","message":"request","method":"POST","ms":104,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:05.041Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:06.166Z"}
+{"level":"info","message":"request","method":"POST","ms":100,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:06.167Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:06.847Z"}
+{"level":"info","message":"request","method":"POST","ms":103,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:06.848Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:07.471Z"}
+{"level":"info","message":"request","method":"POST","ms":94,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:07.472Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:07.996Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:07.997Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:08.961Z"}
+{"level":"info","message":"request","method":"POST","ms":100,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:08.961Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:09.561Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:09.561Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:10.676Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:10.676Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:11.441Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:11.441Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:12.279Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:12.279Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:13.154Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:13.154Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:13.769Z"}
+{"level":"info","message":"request","method":"POST","ms":95,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:13.769Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:14.320Z"}
+{"level":"info","message":"request","method":"POST","ms":83,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:14.320Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:14.818Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:14.818Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:15.432Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:15.432Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:15.998Z"}
+{"level":"info","message":"request","method":"POST","ms":91,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:15.999Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:16.309Z"}
+{"level":"info","message":"request","method":"POST","ms":90,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:16.309Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:16.608Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:16.608Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:16.969Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:16.970Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:17.298Z"}
+{"level":"info","message":"request","method":"POST","ms":101,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:17.298Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:17.786Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:17.786Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:18.152Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:18.153Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:18.580Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:18.581Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:18.973Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:18.974Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:19.389Z"}
+{"level":"info","message":"request","method":"POST","ms":87,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:19.389Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:19.783Z"}
+{"level":"info","message":"request","method":"POST","ms":97,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:19.783Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:20.210Z"}
+{"level":"info","message":"request","method":"POST","ms":98,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:20.211Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:20.638Z"}
+{"level":"info","message":"request","method":"POST","ms":100,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:20.639Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:21.081Z"}
+{"level":"info","message":"request","method":"POST","ms":100,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:21.081Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:21.489Z"}
+{"level":"info","message":"request","method":"POST","ms":96,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:21.489Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:21.977Z"}
+{"level":"info","message":"request","method":"POST","ms":91,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:21.977Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:22.421Z"}
+{"level":"info","message":"request","method":"POST","ms":85,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:22.421Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:22.980Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:22.980Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:23.393Z"}
+{"level":"info","message":"request","method":"POST","ms":99,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:23.393Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:51:24.211Z"}
+{"level":"info","message":"request","method":"POST","ms":102,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:51:24.211Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:16.025Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:16.289Z"}
+{"level":"info","message":"request","method":"POST","ms":85,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:16.290Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:16.653Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:16.653Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:17.192Z"}
+{"level":"info","message":"request","method":"POST","ms":85,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:17.192Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:17.544Z"}
+{"level":"info","message":"request","method":"POST","ms":89,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:17.544Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:17.964Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:17.965Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:18.364Z"}
+{"level":"info","message":"request","method":"POST","ms":93,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:18.365Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:18.835Z"}
+{"level":"info","message":"request","method":"POST","ms":90,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:18.835Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:19.342Z"}
+{"level":"info","message":"request","method":"POST","ms":114,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:19.343Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:19.715Z"}
+{"level":"info","message":"request","method":"POST","ms":90,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:19.715Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:20.118Z"}
+{"level":"info","message":"request","method":"POST","ms":94,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:20.119Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:20.515Z"}
+{"level":"info","message":"request","method":"POST","ms":90,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:20.515Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:20.915Z"}
+{"level":"info","message":"request","method":"POST","ms":91,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:20.915Z"}
+{"level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-18T16:52:21.352Z"}
+{"level":"info","message":"request","method":"POST","ms":89,"path":"/api/v1/user/login","status":401,"timestamp":"2026-10-18T16:52:21.352Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:21.660Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:21.660Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:22.133Z"}
+{"level":"info","message":"request","method":"POST","ms":0,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:22.133Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:22.621Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:22.621Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:23.108Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:23.108Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:23.559Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:23.560Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:23.993Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:23.994Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:24.443Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:24.444Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:24.892Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:24.893Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:25.237Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:25.238Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/v1/user/login","timestamp":"2026-10-18T16:52:25.593Z"}
+{"level":"info","message":"request","method":"POST","ms":1,"path":"/api/v1/user/login","status":429,"timestamp":"2026-10-18T16:52:25.593Z"}

@@ -1,0 +1,11 @@
+const router = require('express').Router();
+const c = require('./employeeController');
+const v = require('./validators');
+const auth = require('./auth');
+router.use(auth);
+router.get('/employees', c.list);
+router.post('/employees', v.createEmployee, c.create);
+router.get('/employees/:eid', v.getEmployee, c.getOne);
+router.put('/employees/:eid', v.updateEmployee, c.update);
+router.delete('/employees', v.deleteEmployee, c.remove);
+module.exports = router;
